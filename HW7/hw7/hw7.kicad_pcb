@@ -83,7 +83,7 @@
 	(net 3 "Net-(J3-Pin_1)")
 	(net 4 "Net-(LED1-A)")
 	(net 5 "Net-(LED1-K)")
-	(net 6 "VS")
+	(net 6 "VS2")
 	(net 7 "GNDS")
 	(net 8 "GND")
 	(net 9 "Net-(Q1-B)")
@@ -733,7 +733,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 6 "VS")
+			(net 6 "VS2")
 			(pintype "passive")
 			(uuid "c99e6cd8-3a09-4c52-a0da-1212e7e2ae2e")
 		)
@@ -974,7 +974,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J2"
-			(at 1.27 -4.12 0)
+			(at -2.794 -1.631 0)
 			(layer "F.SilkS")
 			(uuid "12902f33-9d24-4418-9598-b23c87b35b9a")
 			(effects
@@ -1245,7 +1245,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.143678)
-			(net 6 "VS")
+			(net 6 "VS2")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "cf6761c2-9f22-4dc8-98ce-f01a2df7fde9")
@@ -2597,7 +2597,7 @@
 			(uuid "4d8f935c-bfcc-4c78-ab84-503cd9af08c8")
 		)
 		(fp_line
-			(start -0.3 4.72)
+			(start -0.6 4.72)
 			(end -2.66 4.72)
 			(stroke
 				(width 0.12)
@@ -2618,7 +2618,7 @@
 		)
 		(fp_line
 			(start 7.74 4.72)
-			(end 0.3 4.72)
+			(end 0.6 4.72)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2628,7 +2628,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0 4.72) (xy 0.44 5.33) (xy -0.44 5.33)
+				(xy 0 4.16915) (xy 0.44 4.77915) (xy -0.44 4.77915)
 			)
 			(stroke
 				(width 0.12)
@@ -3372,7 +3372,7 @@
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U1"
-			(at 7.874 11.054 0)
+			(at 3.937 4.831 0)
 			(layer "F.SilkS")
 			(uuid "895e1ad0-3ca2-41f4-95de-28f99d279029")
 			(effects
