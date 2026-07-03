@@ -6743,7 +6743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:D1X8K"
+		(property "Footprint" "Display_7Segment:Sx39-1xxxxx"
 			(at 86.36 114.3 0)
 			(effects
 				(font
@@ -6801,7 +6801,7 @@
 			(uuid "cf4872ce-5af1-4e2e-9ac4-7dedc136081e")
 		)
 		(instances
-			(project ""
+			(project "HW13"
 				(path "/2775b0cc-5ee2-4717-b361-3db89545ee8b"
 					(reference "U4")
 					(unit 1)
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:D1X8K"
+		(property "Footprint" "Display_7Segment:Sx39-1xxxxx"
 			(at 163.83 114.3 0)
 			(effects
 				(font
@@ -7811,7 +7811,7 @@
 			(uuid "6c7fe04f-fc00-4f93-8446-cb675d3b902b")
 		)
 		(instances
-			(project ""
+			(project "HW13"
 				(path "/2775b0cc-5ee2-4717-b361-3db89545ee8b"
 					(reference "U6")
 					(unit 1)
